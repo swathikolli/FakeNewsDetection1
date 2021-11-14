@@ -138,7 +138,6 @@ terminado==0.9.5
 testpath==0.5.0
 textblob==0.15.3
 threadpoolctl==2.1.0
-torch @ https://download.pytorch.org/whl/cpu/torch-1.0.1-cp36-cp36m-win_amd64.whl
 tornado==6.1
 tqdm==4.60.0
 traitlets==4.3.3
