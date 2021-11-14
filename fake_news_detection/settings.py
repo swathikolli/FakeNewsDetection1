@@ -1,4 +1,4 @@
-import dj_database_url
+#import dj_database_url
 import django_heroku
 """
 Django settings for fake_news_detection project.
