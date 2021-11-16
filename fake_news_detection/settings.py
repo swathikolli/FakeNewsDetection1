@@ -1,5 +1,3 @@
-import dj_database_url
-import django_heroku
 import os
 """
 Django settings for fake_news_detection project.
@@ -28,7 +26,7 @@ SECRET_KEY = 'django-insecure--xajal4ji0n0)r=usw#-caune@xk(!wez6t12ele9wzb)3d#uf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['fakenews.herokuapp.com']
+ALLOWED_HOSTS = ['fakeandreal.pythonanywhere.com']
 
 # Application definition
 
@@ -131,4 +129,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
-django_heroku.settings(locals())
